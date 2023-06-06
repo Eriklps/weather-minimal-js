@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/png" href="https://openweathermap.org/img/wn/04n.png" />
+    <title>Weather</title>
+</head>
+
+<body>
+
+    <div class="main-box">
+
+        <input class="input-location" placeholder="Input Location">
+        <button onclick="clickSearch()">
+            <img class="search-icon" src="https://www.svgrepo.com/show/488200/find.svg">
+        </button>
+
+        <div class="caixa-media">
+
+            <div class="left-box">
+            <h2 class="location">Location</h2>
+            <p class="temp">Temp</p>
+            </div>
+
+            <div class="right-box">
+                <img class="icon" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="description">Weather</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
