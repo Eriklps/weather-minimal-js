@@ -30,4 +30,3 @@ function clickSearch(){
 
    searchLocation(location)
 }
-
